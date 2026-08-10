@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Репетитор английского | JennyEnglish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Интерактивный фон с парящими буквами -->
+    <div class="bg-letters" id="bgLetters">
+        <span class="bg-letter" style="--speed: 14s; --delay: 0s; top: 12%; left: 8%; font-size: 6rem;">A</span>
+        <span class="bg-letter" style="--speed: 18s; --delay: -3s; top: 22%; left: 78%; font-size: 8rem;">Z</span>
+        <span class="bg-letter" style="--speed: 24s; --delay: -5s; top: 55%; left: 88%; font-size: 7rem;">P</span>
+        <span class="bg-letter" style="--speed: 16s; --delay: -2s; top: 40%; left: 4%; font-size: 5rem;">F</span>
+        <span class="bg-letter" style="--speed: 20s; --delay: -7s; top: 82%; left: 12%; font-size: 9rem;">W</span>
+        <span class="bg-letter" style="--speed: 26s; --delay: -1s; top: 72%; left: 62%; font-size: 6rem;">A</span>
+    </div>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">Jenny<span>English</span></div>
+            <nav class="nav">
+                <a href="#about" class="nav__link">Что в группе</a>
+                <a href="#prices" class="nav__link">Услуги</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="https://vk.me" target="_blank" class="btn btn--small">Написать в VK</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <div class="badge">🆓 Первый урок — бесплатно!</div>
+                <h1 class="hero__title">Репетитор английского | Jenny</h1>
+                <p class="hero__lead">Помогаю заговорить на английском с уверенностью — для путешествий, переезда и жизни за границей.</p>
+                
+                <ul class="hero__list">
+                    <li>🎯 3+ года опыта | Авторская система | Команда профессионалов</li>
+                    <li>🎯 Готовим к ВПР, ОГЭ, ЕГЭ</li>
+                    <li>🎯 Английский для реальной жизни, а не только для учебника</li>
+                </ul>
+
+                <div class="hero__actions">
+                    <a href="https://vk.me" target="_blank" class="btn">Получить бесплатный урок</a>
+                    <a href="#prices" class="btn btn--outline">Узнать услуги</a>
+                </div>
+            </div>
+            
+            <div class="hero__image-container">
+                <div class="hero__glass-card">
+                    <img src="img/g2.png" alt="Евгения Колесник" class="hero__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества (Что ждет в группе) -->
+    <section id="about" class="services">
+        <div class="container">
+            <h2 class="section-title">В нашей группе вас ждут:</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card__icon">📚</div>
+                    <h3 class="card__title">Полезные материалы</h3>
+                    <p class="card__text">Эксклюзивные авторские чек-листы, схемы и разборы для быстрого запоминания.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">❌</div>
+                    <h3 class="card__title">Разборы ошибок</h3>
+                    <p class="card__text">Постоянный анализ частых вопросов, чтобы вы больше никогда не сомневались в правилах.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon">🗣️</div>
+                    <h3 class="card__title">Живой язык</h3>
+                    <p class="card__text">Актуальные фразы, реальные современные диалоги, прямые эфиры и мини-уроки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Раздел услуг и цен -->
+    <section id="prices" class="prices-section">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="grid grid--prices">
+                
+                <div class="card price-card">
+                    <div class="price-card__header">
+                        <span class="price-card__badge">Популярно</span>
+                        <h3 class="price-card__title">Подготовка к экзаменам</h3>
+                        <p class="price-card__desc">ВПР, ОГЭ, ЕГЭ без стресса и лишней зубрежки.</p>
+                    </div>
+                    <div class="price-card__features">
+                        <p>✓ Разбор структуры экзаменационных КИМ</p>
+                        <p>✓ Пополнение лексического запаса под темы</p>
+                        <p>✓ Лайфхаки для идеальной сдачи устной части</p>
+                        <p>✓ Еженедельные пробники с проверкой</p>
+                    </div>
+                    <a href="#cta" class="btn btn--form">Записаться</a>
+                </div>
+
+                <div class="card price-card">
+                    <div class="price-card__header">
+                        <h3 class="price-card__title">Английский для жизни</h3>
+                        <p class="price-card__desc">Разговорный курс для уверенного общения в любой точке мира.</p>
+                    </div>
+                    <div class="price-card__features">
+                        <p>✓ Изучение фраз для аэропортов, кафе и отелей</p>
+                        <p>✓ Снятие языкового барьера за 4 недели</p>
+                        <p>✓ Восприятие беглой английской речи на слух</p>
+                        <p>✓ Только актуальный сленг и идиомы</p>
+                    </div>
+                    <a href="#cta" class="btn btn--form">Записаться</a>
+                </div>
+
+                <div class="card price-card">
+                    <div class="price-card__header">
+                        <h3 class="price-card__title">Индивидуальная система</h3>
+                        <p class="price-card__desc">Персональная программа обучения под любые специфические цели.</p>
+                    </div>
+                    <div class="price-card__features">
+                        <p>✓ Адаптация расписания под ваш график</p>
+                        <p>✓ Уклон в бизнес-английский или IT</p>
+                        <p>✓ Сопровождение от личного наставника</p>
+                        <p>✓ Закрытие индивидуальных пробелов в грамматике</p>
+                    </div>
+                    <a href="#cta" class="btn btn--form">Записаться</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел отзывов -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Отзывы учеников</h2>
+            <div class="reviews-slider">
+                <div class="reviews-wrapper" id="reviewsWrapper">
+                    
+                    <div class="review-slide">
+                        <div class="card review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Анна К.</div>
+                                <div>
+                                    <h4 class="review-card__name">Анна К.</h4>
+                                    <span class="review-card__target">Цель: Сдача ОГЭ</span>
+                                </div>
+                            </div>
+                            <p class="review-card__text">"Занималась у Евгении перед ОГЭ. До занятий путалась во временах и боялась устной части. В итоге сдала на максимальный балл! Объяснения невероятно простые, атмосфера на уроках очень дружелюбная."</p>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="card review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Максим В.</div>
+                                <div>
+                                    <h4 class="review-card__name">Максим В.</h4>
+                                    <span class="review-card__target">Цель: Переезд в ОАЭ</span>
+                                </div>
+                            </div>
+                            <p class="review-card__text">"Благодаря авторской системе Дженни смог заговорить уже через 2 месяца регулярных занятий. Спокойно прошел собеседование на английском и переехал по работе. Огромное спасибо команде профессионалов!"</p>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="card review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Елена Д.</div>
+                                <div>
+                                    <h4 class="review-card__name">Елена Д.</h4>
+                                    <span class="review-card__target">Цель: Свободные путешествия</span>
+                                </div>
+                            </div>
+                            <p class="review-card__text">"Английский для реальной жизни — это чистая правда. Раньше в отелях изъяснялась на пальцах, а теперь легко поддерживаю диалоги с иностранцами. Очень мотивирующие уроки!"</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Стрелки управления отзывами -->
+                <div class="reviews-controls">
+                    <button class="control-btn" id="prevBtn">←</button>
+                    <button class="control-btn" id="nextBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Раздел: Моя команда -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Команда профессионалов</h2>
+            <div class="grid grid--team">
+                
+                <div class="card team-card">
+                    <div class="team-card__img-wrapper">
+                        <!-- Замените ссылки на реальные фото преподавателей -->
+                        <img src="img/Эльвина Валеева.png" alt="Евгения Колесник" class="team-card__img">
+                    </div>
+                    <h3 class="team-card__name">Евгения Колесник</h3>
+                    <p class="team-card__role">Основатель & Старший репетитор</p>
+                    <p class="team-card__desc">Автор системы обучения. 3+ года опыта, готовит к ЕГЭ/ОГЭ на максимальные баллы.</p>
+                </div>
+
+                <div class="card team-card">
+                    <div class="team-card__img-wrapper">
+                        <img src="img/Эльза Сабарбагина.png" alt="Дарья" class="team-card__img">
+                    </div>
+                    <h3 class="team-card__name">Дарья</h3>
+                    <p class="team-card__role">Преподаватель разговорного курса</p>
+                    <p class="team-card__desc">Специалист по преодолению языкового барьера. Английский для переезда и жизни.</p>
+                </div>
+
+                <div class="card team-card">
+                    <div class="team-card__img-wrapper">
+                        <img src="img/Мария Яхонтова.png" alt="Артём" class="team-card__img">
+                    </div>
+                    <h3 class="team-card__name">Артём</h3>
+                    <p class="team-card__role">Эксперт по подготовке к ОГЭ/ЕГЭ</p>
+                    <p class="team-card__desc">Знает все ловушки экзаменационных КИМ. Разбирает сложные темы за 10 минут.</p>
+                </div>
+
+                <div class="card team-card">
+                    <div class="team-card__img-wrapper">
+                        <img src="img/Эмилия.png" alt="Алина" class="team-card__img">
+                    </div>
+                    <h3 class="team-card__name">Алина</h3>
+                    <p class="team-card__role">Преподаватель детских групп и ВПР</p>
+                    <p class="team-card__desc">Превращает скучные правила в живые диалоги. Помогает полюбить английский с первого урока.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи (идет следом за командой) -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta__glass-box">
+                <div class="cta__info">
+                    <h2>Остались вопросы?</h2>
+                    <p class="cta__text-p">Запишитесь на первый бесплатный разборный урок к Евгении или преподавателям её команды.</p>
+                    <div class="contacts-block">
+                        <p>👤 <strong>Преподаватель:</strong> Евгения Колесник</p>
+                        <p>📞 <strong>Телефон:</strong> <a href="tel:+79155812991">+7 (915) 581-29-91</a></p>
+                    </div>
+                </div>
+                <form id="leadForm" class="form">
+                    <input type="text" id="name" placeholder="Ваше имя" required class="form__input">
+                    <input type="tel" id="phone" placeholder="Ваш телефон" required class="form__input">
+                    <button type="submit" class="btn btn--form">Заказать разбор</button>
+                    <p id="formMessage" class="form__message"></p>
+                    <a href="https://vk.me" target="_blank" class="form__vk-link">Или написать напрямую в VK</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>&copy; 2026 JennyEnglish. Все права защищены.</p>
+            <p>Евгения Колесник | Репетитор английского языка</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
