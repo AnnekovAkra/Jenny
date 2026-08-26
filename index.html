@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Репетитор английского языка | Jenny</title>
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Подключение внешних стилей CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Контейнер для летающих фоновых букв -->
+    <div id="bg-letters-container"></div>
+
+    <!-- НАВИГАЦИЯ -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Jenny<span>.English</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#faq">Вопросы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Английский язык с уверенностью для жизни и будущего</h1>
+                <p>Помогаю заговорить без барьера. Эффективная подготовка к экзаменам, переезду и комфортным путешествиям.</p>
+                
+                <!-- Круглое фото преподавателя перед кнопкой -->
+                <div class="hero-avatar-wrapper">
+                    <img src="img/2.png.png"Jenny Репетитор" class="hero-avatar">
+                </div>
+
+                <a href="#contacts" class="btn">Записаться на бесплатный урок</a>
+                
+                <div class="hero-features">
+                    <div class="feature-item">✓ 3+ года опыта</div>
+                    <div class="feature-item">✓ Авторская система обучения</div>
+                    <div class="feature-item">✓ Подготовка к ВПР, ОГЭ, ЕГЭ</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- О НАС -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">О школе и методике</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Привет, я Jenny!</h3>
+                    <p>Мой подход строится на естественном погружении в язык. Мы не просто зубрим правила, а учимся думать и выражать свои мысли на английском свободно, плавно преодолевая языковой барьер.</p>
+                    <p>Каждое занятие адаптировано под ваши цели: будь то успешная сдача государственных экзаменов на высокий балл или уверенный разговор в зарубежной поездке.</p>
+                </div>
+                <div class="about-img">
+                    <!-- Реальное фото преподавателя в живой форме -->
+                    <img src="img/2.png.png"Jenny Колесник" class="avatar-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Программы обучения</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Подготовка к экзаменам</h3>
+                    <p>Интенсивный курс подготовки к ВПР, ОГЭ и ЕГЭ. Разбор ловушек экзамена, прокачка аудирования, грамматики и эссе.</p>
+                    <div class="service-price">от 1 500 ₽ / ак. ч.</div>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+                <div class="service-card">
+                    <h3>Английский для путешествий</h3>
+                    <p>Живой разговорный язык, разбор реальных ситуаций в аэропорту, отеле и ресторане. Только нужная лексика.</p>
+                    <div class="service-price">от 1 200 ₽ / ак. ч.</div>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+                <div class="service-card">
+                    <h3>Релокация и жизнь за рубежом</h3>
+                    <p>Глубокая языковая адаптация. Подготовка к собеседованиям, составление резюме и свободное бытовое общение.</p>
+                    <div class="service-price">от 1 800 ₽ / ак. ч.</div>
+                    <a href="#contacts" class="btn">Выбрать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section id="reviews">
+        <div class="container">
+            <h2 class="section-title">Результаты и отзывы</h2>
+            <div class="reviews-photo-grid">
+                
+                <!-- Фото-отзыв 1 -->
+                <div class="review-glass-card">
+                    <div class="review-image-wrapper">
+                        <img src="img/отзыв дарья.png"Отзыв ученик - ЕГЭ 90+" class="review-screenshot">
+                    </div>
+                    <div class="review-meta">
+                        <span class="review-tag">Англиский для подшкольников</span>
+                        <h4 class="review-student-name">Дарья</h4>
+                    </div>
+                </div>
+
+                <!-- Фото-отзыв 2 -->
+                <div class="review-glass-card">
+                    <div class="review-image-wrapper">
+                        <img src="img/отзыв татьяна.png" alt="Отзыв ученика - Разговорный курс" class="review-screenshot">
+                    </div>
+                    <div class="review-meta">
+                        <span class="review-tag">Английский язык для путешествий</span>
+                        <h4 class="review-student-name">Татьяна</h4>
+                    </div>
+                </div>
+
+                <!-- Фото-отзыв 3 -->
+                <div class="review-glass-card">
+                    <div class="review-image-wrapper">
+                        <img src="img/отзыв леонид.png" alt="Отзыв ученика - Бизнес-английский" class="review-screenshot">
+                    </div>
+                    <div class="review-meta">
+                        <span class="review-tag">Английский язык Подготовка к экзаменам</span>
+                        <h4 class="review-student-name">Леонид</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- КОМАНДА -->
+    <section id="team">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <!-- Окно 1 -->
+                <div class="team-card">
+                    <img src="img/3.png.png"Эльвина Валеева" class="team-photo">
+                    <h4>Эльвина Валеева</h4>
+                    <p>Основатель, ведущий репетитор</p>
+                </div>
+                <!-- Окно 2 -->
+                <div class="team-card">
+                    <img src="img/1.png.png"Эльза Сабарбагина" class="team-photo">
+                    <h4>Эльза Сабарбагина</h4>
+                    <p>Преподаватель разговорных групп</p>
+                </div>
+                <!-- Окно 3 -->
+                <div class="team-card">
+                    <img src="img/4.png.png"Мария Яхонтова" class="team-photo">
+                    <h4>Мария Яхонтова</h4>
+                    <p>Эксперт по подготовке к ЕГЭ / ОГЭ</p>
+                </div>
+                <!-- Окно 4 -->
+                <div class="team-card">
+                    <img src="img/7.png.png"Эмилия" class="team-photo">
+                    <h4>Эмилия</h4>
+                    <p>Детский и подростковый репетитор</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ВОПРОСЫ (FAQ) -->
+    <section id="faq">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Как проходит первый пробный урок? <span class="faq-icon">+</span></div>
+                    <div class="faq-answer">Первый урок полностью бесплатный. Мы знакомимся, определяем ваш текущий уровень владения языком, обсуждаем цели и подбираем комфортный график.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">В каком формате ведутся занятия? <span class="faq-icon">+</span></div>
+                    <div class="faq-answer">Все занятия проходят онлайн на удобной интерактивной платформе. Вам понадобятся только стабильный интернет, веб-камера и микрофон.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Можно ли отменить или перенести занятие? <span class="faq-icon">+</span></div>
+                    <div class="faq-answer">Да, вы можете бесплатно отменить или перенести занятие, предупредив преподавателя не менее чем за 12 часов до начала.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section id="contacts">
+        <div class="container">
+            <h2 class="section-title">Запишитесь на занятие</h2>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <div class="contact-item">
+                        <h4>Телефон</h4>
+                        <p><a href="tel:+79155812991">+7 (915) 581-29-91</a></p>
+                    </div>
+                    <div class="contact-item">
+
+    <!-- ПОДВАЛ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jenny.English. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение внешнего файла скриптов JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+<body>
+    <!-- Контейнер для летающих фоновых букв -->
+    <div id="bg-letters-container"></div>
+
+    <!-- НАВИГАЦИЯ -->
+    <nav class="navbar">
+    ...
